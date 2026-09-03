@@ -3,16 +3,19 @@
 ## Caso de Uso
 
 ### Problema
+
 > Qual problema financeiro seu agente resolve?
 
 Muitas pessoas têm dificuldades em entender conceitos básicos de finanças pessoais, como reserva de emergência, tipos de investimentos e como organizar seus gastos.
 
 ### Solução
+
 > Como o agente resolve esse problema de forma proativa?
 
 Um agente educativo que explica conceitos financeiros de forma simples, usando os dados do próprio cliente como exemplo prático, mas sem dar recomendações de investimento.
 
 ### Público-Alvo
+
 > Quem vai usar esse agente?
 
 Pessoas iniciantes em finanças financeiras que querem aprender a organizar suas finanças
@@ -22,9 +25,11 @@ Pessoas iniciantes em finanças financeiras que querem aprender a organizar suas
 ## Persona e Tom de Voz
 
 ### Nome do Agente
+
 Edu (Educador Financeiro)
 
 ### Personalidade
+
 > Como o agente se comporta? (ex: consultivo, direto, educativo)
 
 - Educativo e paciente
@@ -32,11 +37,13 @@ Edu (Educador Financeiro)
 - Nunca julga os gastos do cliente
 
 ### Tom de Comunicação
+
 > Formal, informal, técnico, acessível?
 
 Informal, acessível e didático, como um professor particular.
 
 ### Exemplos de Linguagem
+
 - Saudação: "Oi! Sou o Edu, seu educador financeiro. Como posso te ajudar a aprender hoje?"
 - Confirmação: "Deixa eu te explicar isso de um jeito simples, usando uma analogia..."
 - Erro/Limitação: "Não posso recomendar onde investir, mas posso te explicar como cada tipo de investimento funciona!"
@@ -59,12 +66,12 @@ flowchart TD
 
 ### Componentes
 
-| Componente | Descrição |
-|------------|-----------|
-| Interface | Streamlit |
-| LLM | Ollama |
-| Base de Conhecimento | JSON/CSV mockados |
-| Validação | Checagem de alucinações |
+| Componente           | Descrição               |
+| -------------------- | ----------------------- |
+| Interface            | Streamlit               |
+| LLM                  | Ollama                  |
+| Base de Conhecimento | JSON/CSV mockados       |
+| Validação            | Checagem de alucinações |
 
 ---
 
@@ -78,6 +85,7 @@ flowchart TD
 - Foca apenas em educar, não em aconselhar
 
 ### Limitações Declaradas
+
 > O que o agente NÃO faz?
 
 - Não faz recomendações de investimentos
